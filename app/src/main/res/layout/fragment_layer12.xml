@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Layer12Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- Baris logo + teks -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="@string/logo_sklh"
+            android:src="@drawable/logo" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/nmaSklh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nma_sklh"
+            android:textColor="#2A6D7E"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#2A6D7E" />
+
+    <ImageView
+        android:id="@+id/menu_back"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/menu_bank"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/kuis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kuis"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="25dp"
+        android:textSize="25sp" />
+
+    <View
+        android:layout_width="365dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="20dp"
+        android:background="#2A6D7E"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/Bm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Bm"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:textSize="18sp" />
+
+    <!-- Tabel Belum Mengerjakan -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/namabm1"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_border"
+                android:padding="12dp"
+                android:text="@string/siswa1"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/namabm2"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_border"
+                android:padding="12dp"
+                android:text="@string/siswa2"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/namabm3"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_border"
+                android:padding="12dp"
+                android:text="@string/siswa3"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/Ym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Ym"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="25dp"
+        android:textSize="18sp" />
+
+    <!-- Tabel Sudah Mengerjakan -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/namaym1"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_border"
+                android:padding="12dp"
+                android:text="@string/siswa1"
+                android:textColor="#2A6D7E"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/skor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-80dp"
+                android:text="@string/skor1"
+                android:textColor="#2A6D7E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/namaym2"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_border"
+                android:padding="12dp"
+                android:text="@string/siswa2"
+                android:textColor="#2A6D7E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/skor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-80dp"
+                android:text="@string/skor2"
+                android:textColor="#2A6D7E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/namaym3"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_border"
+                android:padding="12dp"
+                android:text="@string/siswa3"
+                android:textColor="#2A6D7E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/skor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-80dp"
+                android:text="@string/skor3"
+                android:textColor="#2A6D7E"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

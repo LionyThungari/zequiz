@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/_110875_home_icon"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/_904677_add_addition_calculate_charge_create_icon"
+        android:title="@string/title_tambahkuis" />
+
+    <item
+        android:id="@+id/navigation_banksoal"
+        android:icon="@drawable/baseline_account_balance_24"
+        android:title="@string/title_banksoal" />
+
+</menu>
