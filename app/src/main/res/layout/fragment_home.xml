@@ -111,6 +111,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
                 android:background="@drawable/bgcard"
+                android:contentDescription="@string/contentdes"
                 android:scaleType="centerCrop"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"

@@ -49,6 +49,7 @@
     <string name="helloguru">Halo, Jess</string>
     <string name="kelasguru">Kelas 4</string>
     <string name="dfrkuis">Daftar Kuis</string>
+    <string name="contentdes">bgcard</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_layer_guru2">LayerGuru2</string>
