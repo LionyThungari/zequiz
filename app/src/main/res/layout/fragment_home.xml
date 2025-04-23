@@ -44,7 +44,7 @@
         android:background="#2A6D7E" />
 
     <TextView
-        android:id="@+id/hallog"
+        android:id="@+id/hallogu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
@@ -64,7 +64,7 @@
         android:textColor="@color/blue"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/hallog" />
+        app:layout_constraintTop_toBottomOf="@id/hallogu" />
 
     <TextView
         android:id="@+id/dftrkuis"
