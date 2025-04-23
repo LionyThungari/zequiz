@@ -221,9 +221,10 @@
             android:background="@null"
             android:contentDescription="@string/tambah_soal_desc"
             android:src="@drawable/_904677_add"
-            android:translationY="0dp"
             app:layout_constraintBottom_toBottomOf="@id/soal_container"
-            app:layout_constraintEnd_toEndOf="@id/soal_container" />
+            app:layout_constraintEnd_toEndOf="@id/soal_container"
+            />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
