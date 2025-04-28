@@ -110,7 +110,7 @@
                 android:id="@+id/img_photo"
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
-                android:background="@drawable/bgcard"
+                android:background="@drawable/mtk"
                 android:contentDescription="@string/contentdes"
                 android:scaleType="centerCrop"
                 app:layout_constraintTop_toTopOf="parent"
